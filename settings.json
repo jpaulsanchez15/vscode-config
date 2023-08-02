@@ -1,0 +1,55 @@
+{
+  // Editor
+  "window.zoomLevel": 2,
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.inlineSuggest.enabled": true,
+  "breadcrumbs.enabled": false,
+  "chat.editor.wordWrap": "on",
+  "workbench.iconTheme": "vs-seti",
+  "editor.mouseWheelZoom": true,
+  "editor.suggestSelection": "first",
+  "workbench.editor.showTabs": false,
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "string",
+        "settings": {
+          "foreground": "#fbd5b0" // Change this to the desired color value
+        }
+      }
+    ]
+  },
+
+  // JavaScript
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.tsx": "typescriptreact"
+  },
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  // TypeScript
+  "typescript.suggest.completeFunctionCalls": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+
+  // ESLint Integration
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Auto-close tags for TypeScript/JavaScript JSX
+  "html.autoClosingTags": true,
+
+  // Enable ESLint autofix on save
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "workbench.startupEditor": "none"
+}
